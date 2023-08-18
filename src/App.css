@@ -48,12 +48,6 @@ subtitle {
   display: flex;
   justify-content: center;
 }
-/* @media (max-width: 1150px) {
-  .avatar-group {
-    display: flex;
-    justify-content: center;
-  }
-} */
 
 .gap-30 {
   gap: 30px;
@@ -161,4 +155,18 @@ img {
 
 .selected {
   background-color: rgba(116, 116, 255, 0.315);
+}
+
+@media only screen and (max-width: 390.4px) {
+  .avatar-wrapper {
+    padding: 0;
+    top: calc(48% - 205px);
+  }
+  .avatar-group.gap-30 {
+    gap: 0;
+    width: 80%;
+  }
+  .list-section {
+    width: 100px;
+  }
 }
